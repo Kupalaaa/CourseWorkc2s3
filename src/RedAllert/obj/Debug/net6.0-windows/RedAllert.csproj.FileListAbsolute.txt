@@ -1,0 +1,58 @@
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.exe
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.deps.json
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.runtimeconfig.json
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.dll
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.pdb
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.AssemblyReference.cache
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.BattleWindow.resources
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.DebufWindow.resources
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.Form1.resources
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.GenerateResource.cache
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.AssemblyInfoInputs.cache
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.AssemblyInfo.cs
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.CoreCompileInputs.cache
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.dll
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\refint\RedAllert.dll
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.pdb
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.genruntimeconfig.cache
+C:\Users\ankyp\Source\Repos\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\ref\RedAllert.dll
+D:\2course\psu_kpo\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.exe
+D:\2course\psu_kpo\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.deps.json
+D:\2course\psu_kpo\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.runtimeconfig.json
+D:\2course\psu_kpo\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.dll
+D:\2course\psu_kpo\RedAllert\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.pdb
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.AssemblyReference.cache
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.BattleWindow.resources
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.DebufWindow.resources
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.GenerateResource.cache
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.GeneratedMSBuildEditorConfig.editorconfig
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.AssemblyInfoInputs.cache
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.AssemblyInfo.cs
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.CoreCompileInputs.cache
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.dll
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\refint\RedAllert.dll
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.pdb
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.genruntimeconfig.cache
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\ref\RedAllert.dll
+D:\2course\psu_kpo\RedAllert\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.Game.resources
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.AssemblyReference.cache
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.BattleWindow.resources
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.DebufWindow.resources
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.Game.resources
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.Menu.resources
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.GenerateResource.cache
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.GeneratedMSBuildEditorConfig.editorconfig
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.AssemblyInfoInputs.cache
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.AssemblyInfo.cs
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.csproj.CoreCompileInputs.cache
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.dll
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\refint\RedAllert.dll
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.pdb
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.exe
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.deps.json
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.runtimeconfig.json
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.dll
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\bin\Debug\net6.0-windows\RedAllert.pdb
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\RedAllert.genruntimeconfig.cache
+D:\2course\psu_kpo\RedAllert — копия\src\RedAllert\obj\Debug\net6.0-windows\ref\RedAllert.dll
