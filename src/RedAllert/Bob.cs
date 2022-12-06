@@ -6,7 +6,10 @@ namespace BobAdv
     {
         public Image Sprite = Image.FromFile("../../../resources/characters.png");
         private World _world;
-
+        public SoundPlayer BufSound = new SoundPlayer("../../../resources/buf.wav");
+        public SoundPlayer DebufSound = new SoundPlayer("../../../resources/debuf.wav");
+        public SoundPlayer AttentionSound = new SoundPlayer("../../../resources/attention.wav");
+        public SoundPlayer DefeatSound = new SoundPlayer("../../../resources/defeat.wav");
         public Bob(int x, int y, int width, int height, Game form, World world, int health, int attack,int score, string name = "Bob") :
             base(x, y, width, height, form, health, attack,score, name)
         {
@@ -37,22 +40,26 @@ namespace BobAdv
                     if (Attack > 0)
                     {
                         Attack -= 1;
+                        DebufSound.Play();
                         new DebufWindow("О нет... Вы утомились. Ваша атака понижается на 1 ед.");
                     }
                     break;
                 case 2:
                     Attack += 1;
+                    BufSound.Play();
                     new DebufWindow("Вы нашли странное зелье. Ваша атака повышается на 1 ед.");
                     break;
                 case 3:
                     Health += 1;
+                    BufSound.Play();
                     new DebufWindow("Вы нашли исцеляющий свиток. Ваше здоровье повышается на 1 ед.");
                     break;
                 case 4:
                     if (Health > 1)
                     {
                         Health -= 1;
-                        new DebufWindow("О нет... Сзади на вас напала мышь. Ваше здоровье падает на 1 ед.");
+                        DebufSound.Play();
+                        new DebufWindow("О нет... Вас укусил паук. Ваше здоровье падает на 1 ед.");
                     }
                     break;
                 case 5:
@@ -60,11 +67,12 @@ namespace BobAdv
                     {
                         Health = 1;
                         Attack = 10;
-                        new DebufWindow("Вы выпили бутылочку воды.");
+                        new DebufWindow("Вы в ярости.Атака увеличена");
                     }
                     break;
                 case 6:
-                    new DebufWindow("Rat wants to kill you");
+                    AttentionSound.Play();
+                    new DebufWindow("На вас напала крыса");
                     var battleWindow = new BattleWindow();
                     battleWindow.AddUnits(this, new Rat(0, 0, 0, 0, Form, 0, 0, 0, "Nafanya"));
                     break;
@@ -72,9 +80,13 @@ namespace BobAdv
 
             if (Health <= 0)
             {
+                DefeatSound.Play();
                 new DebufWindow("You died");
-                Application.Exit();
+                Form.Menu.AddToScoreList(Score);
+                Form.Menu.Show();
+                Form.Close();
             }    
         }
     }
 }
+ 

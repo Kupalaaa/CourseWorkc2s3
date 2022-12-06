@@ -39,6 +39,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackgroundImage = global::BobAdv.Properties.Resources.BattleWindow;
             this.pictureBox1.Location = new System.Drawing.Point(39, 37);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(731, 346);
@@ -113,6 +114,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "BattleWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BattleWindow";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

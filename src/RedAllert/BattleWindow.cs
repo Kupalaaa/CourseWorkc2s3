@@ -4,18 +4,25 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace BobAdv
 {
     public partial class BattleWindow : Form
     {
+
         private Image _ratSprite = Image.FromFile("../../../resources/rat.png");
         private Image _playerSprite = Image.FromFile("../../../resources/knight.png");
-
+        public SoundPlayer GoodSound = new SoundPlayer("../../../resources/goodchoise.wav");
+        public SoundPlayer BadSound = new SoundPlayer("../../../resources/failchoise.wav");
+        public SoundPlayer DrawSound = new SoundPlayer("../../../resources/draw.wav");
+        public SoundPlayer WinSound = new SoundPlayer("../../../resources/win.wav");
+        public SoundPlayer DefeatSound = new SoundPlayer("../../../resources/defeat.wav");
 
 
         private ALifeUnit _player;
@@ -27,13 +34,9 @@ namespace BobAdv
         public BattleWindow()
         {
             InitializeComponent();
-            //_player = player
-            
             button1.Hide();
             button2.Hide();
             button3.Hide();
-
-            
             Show();
         }
 
@@ -56,11 +59,8 @@ namespace BobAdv
             var graphics = e.Graphics;
             float playerSize = 256;
             float enemySize = 256;
-            graphics.DrawImage(_ratSprite, 256,0, (int)playerSize, (int)playerSize);
+            graphics.DrawImage(_ratSprite, 400,0, (int)playerSize, (int)playerSize);
             graphics.DrawImage(_playerSprite, 24, 24, enemySize, enemySize);
-            Console.WriteLine("FF");
-            // _player.Draw(graphics);
-            // _enemy.Draw(graphics);
         }
 
         /// <summary>
@@ -74,15 +74,18 @@ namespace BobAdv
             var ratChoose = _random.Next(0,3);
             switch (ratChoose) {
                 case 0:
+                    DrawSound.Play();
                     new DebufWindow("Ничья!");
                     break;
                 case 1:
+                    GoodSound.Play();
                     new DebufWindow($"Победа! Вы наносите {_enemy.Name} {_player.Attack} ед. урона");
                     _enemy.Health -= _player.Attack;
                     label1.Text = $"Здоровье: {_player.Health}";
                     label2.Text = $"Здоровье: {_enemy.Health}";
                     break;
                 case 2:
+                    BadSound.Play();
                     new DebufWindow($"Поражение! {_enemy.Name} наносит вам {_enemy.Attack} ед. урона");
                     _player.Health -= _enemy.Attack;
                     label1.Text = $"Здоровье: {_player.Health}";
@@ -91,13 +94,15 @@ namespace BobAdv
             }
             if (_enemy.Health <= 0)
             {
+                WinSound.Play();
                 new DebufWindow("You Win");
                 Close();
             }
             else if(_player.Health <=0)
             {
+                DefeatSound.Play();
                 new DebufWindow("You Lose((:(");
-
+               
                 Close();
             }
 
@@ -117,17 +122,19 @@ namespace BobAdv
             switch (ratChoose)
             {
                 case 0:
+                    BadSound.Play();
                     new DebufWindow($"Поражение! {_enemy.Name} наносит вам {_enemy.Attack} ед. урона");
                     _player.Health -= _enemy.Attack;
                     label1.Text = $"Здоровье: {_player.Health}";
                     label2.Text = $"Здоровье: {_enemy.Health}";
                     break;
                 case 1:
+                    DrawSound.Play();
                     new DebufWindow("Ничья!");
                     break;
                 case 2:
+                    GoodSound.Play();
                     new DebufWindow($"Победа! Вы наносите {_enemy.Name} {_player.Attack} ед. урона");
-
                     _enemy.Health -= _player.Attack;
                     label1.Text = $"Здоровье: {_player.Health}";
                     
@@ -137,16 +144,15 @@ namespace BobAdv
             }
             if (_enemy.Health <= 0)
             {
+                WinSound.Play();
                 new DebufWindow("You Win");
-               
-
                 Close();
             }
             else if(_player.Health <=0)
             {
+                DefeatSound.Play();
                 new DebufWindow("You Lose((:(");
-                
-
+               
                 Close();
             }
 
@@ -166,41 +172,39 @@ namespace BobAdv
             switch (ratChoose)
             {
                 case 0:
+                    GoodSound.Play();
                     new DebufWindow($"Победа! Вы наносите {_enemy.Name} {_player.Attack} ед. урона");
                     _enemy.Health -= _player.Attack;
                     label1.Text = $"Здоровье: {_player.Health}";
                     label2.Text = $"Здоровье: {_enemy.Health}";
                     break;
                 case 1:
+                    BadSound.Play();
                     new DebufWindow($"Поражение! {_enemy.Name} наносит вам {_enemy.Attack} ед. урона");
                     _player.Health -= _enemy.Attack;
                     label1.Text = $"Здоровье: {_player.Health}";
                     label2.Text = $"Здоровье: {_enemy.Health}";
                     break;
                 case 2:
+                    DrawSound.Play();
                     new DebufWindow("Ничья!");
-               
-
                     break;
             }
             if (_enemy.Health <= 0)
             {
+                WinSound.Play();
                 new DebufWindow("You Win");
-              
-
                 Close();
             }
             else if(_player.Health <=0)
             {
+                DefeatSound.Play();
                 new DebufWindow("You Lose((:(");
-
                 Close();
             }
 
             pictureBox1.Invalidate();
 
         }
-
-     
     }
 }

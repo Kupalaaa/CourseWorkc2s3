@@ -10,8 +10,8 @@ namespace BobAdv
 {
     public class Tile : GameObject
     {
-        private SolidBrush _gameObjectSolidBrush;
-        public Image Sprite = Image.FromFile("../../../resources/dirt.png");    
+       
+        public Image Sprite = Image.FromFile("../../../resources/tile.png");    
 
         public Tile(int x, int y, int width, int height, Game form,float rotation) : base(x, y, width, height, form) 
         {

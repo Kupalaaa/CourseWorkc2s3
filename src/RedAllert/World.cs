@@ -51,8 +51,10 @@ namespace BobAdv
 
         private void InitMap()
         {
-            var xCount = 10;
-            var yCount = 6;
+            Random xr = new Random();
+            var xCount = xr.Next(3,10);
+            Random yr = new Random(); 
+            var yCount = yr.Next(3,8);
 
             for (int x = X; x <= xCount + X; x++)
                 _tiles.Add(new Tile(x, Y, 32, 32, Form,0));

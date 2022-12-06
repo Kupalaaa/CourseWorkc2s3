@@ -62,6 +62,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "DebufWindow";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DebufWindow";
             this.ResumeLayout(false);
             this.PerformLayout();
