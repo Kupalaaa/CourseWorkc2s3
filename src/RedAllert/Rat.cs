@@ -5,7 +5,6 @@ namespace BobAdv
 
     public class Rat : ALifeUnit
     {
-        private SolidBrush _gameObjectSolidBrush;
         public Image Sprite = Image.FromFile("../../../resources/dirt.png");
 
 
@@ -16,7 +15,6 @@ namespace BobAdv
             
             Health = random.Next(6, 8);
             Attack = random.Next(2, 4);
-            _gameObjectSolidBrush = new SolidBrush(Color.Blue);
         }
 
         public override void Draw(Graphics graphics)
@@ -31,7 +29,7 @@ namespace BobAdv
 
         public override void Update()
         {
-            //throw new NotImplementedException();
+            
         }
     }
 }

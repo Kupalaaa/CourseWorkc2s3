@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d1db424-340e-4b6b-a151-f30ba06a2120" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/CourseWork2/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CourseWork2/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CourseWork2/FileContentIndex/982886e6-9b6a-4a89-aee6-5ad6449ccae8.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CourseWork2/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CourseWork2/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CourseWork2/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CourseWork2/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/coursework2.metadata.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/coursework2.metadata.v5.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/coursework2.projects.v5.2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/coursework2.projects.v5.2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/Menu.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/Menu.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/Rat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/Rat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/World.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/World.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/bin/Debug/net6.0-windows/BobAdv.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/bin/Debug/net6.0-windows/BobAdv.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/bin/Debug/net6.0-windows/BobAdv.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/bin/Debug/net6.0-windows/BobAdv.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/BobAdv.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/BobAdv.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/BobAdv.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/BobAdv.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/BobAdv.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/BobAdv.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/ref/BobAdv.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/ref/BobAdv.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/refint/BobAdv.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/RedAllert/obj/Debug/net6.0-windows/refint/BobAdv.dll" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2IXkmtEgXj9cWf1ihbGtVscOcJ8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1670335479769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670335479769</updated>
+      <workItem from="1670335484264" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

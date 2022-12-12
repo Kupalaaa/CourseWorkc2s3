@@ -206,5 +206,7 @@ namespace BobAdv
             pictureBox1.Invalidate();
 
         }
+
+   
     }
 }

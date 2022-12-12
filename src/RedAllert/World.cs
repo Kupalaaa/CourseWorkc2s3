@@ -8,14 +8,12 @@ namespace BobAdv
 {
     public class World : GameObject
     {
-        private SolidBrush _gameObjectSolidBrush;
         private List<Tile> _tiles = new List<Tile>();
         private List<Tuple<GameObject, int>> _gameObjectInWorld = new();
         private Random _random = new Random();
 
         public World(int x, int y, int width, int height, Game form) : base(x, y, width, height, form)
         {
-            _gameObjectSolidBrush = new SolidBrush(Color.Gray);
             InitMap();
         }
 
