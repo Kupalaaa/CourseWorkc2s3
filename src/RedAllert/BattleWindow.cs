@@ -57,10 +57,10 @@ namespace BobAdv
         private void Draw(object sender, PaintEventArgs e)
         {
             var graphics = e.Graphics;
-            float playerSize = 256;
-            float enemySize = 256;
-            graphics.DrawImage(_ratSprite, 400,0, (int)playerSize, (int)playerSize);
-            graphics.DrawImage(_playerSprite, 24, 24, enemySize, enemySize);
+            float playerSize = 384;
+            float enemySize = 384;
+            graphics.DrawImage(_ratSprite, 600,25, (int)playerSize, (int)playerSize);
+            graphics.DrawImage(_playerSprite, 24, 50, enemySize, enemySize);
         }
 
         /// <summary>

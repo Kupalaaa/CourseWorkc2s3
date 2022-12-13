@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.DirectoryServices.ActiveDirectory;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -49,22 +50,39 @@ namespace BobAdv
 
         private void InitMap()
         {
-            Random xr = new Random();
-            var xCount = xr.Next(3,10);
-            Random yr = new Random(); 
-            var yCount = yr.Next(3,8);
+            Random x1r = new Random();
+             var x1Count = x1r.Next(10,25);
+             Random y1r = new Random(); 
+             var y1Count = y1r.Next(3,14);
+             Random x2r = new Random();
+             var x2Count = x2r.Next(10,25);
+             Random y2r = new Random();
+             var y2Count = y2r.Next(3, 14);
+           
+            for (int x = X; x <= x1Count + X; x++)
+                _tiles.Add(new Tile(x, Y, 32, 32, Form, 0));
 
-            for (int x = X; x <= xCount + X; x++)
-                _tiles.Add(new Tile(x, Y, 32, 32, Form,0));
+            for (int y = Y ; y <= y1Count + Y; y++)
+                _tiles.Add(new Tile(X + x1Count, y, 32, 32, Form, 0));
 
-            for (int y = Y + 1; y <= yCount + Y; y++)
-                _tiles.Add(new Tile(X + xCount, y, 32, 32, Form, 90));
+            for (int x = X+x1Count; x <=x1Count + x2Count + X; x++)
+                _tiles.Add(new Tile(x, Y+y1Count, 32, 32, Form, 0));
 
-            for (int x = X + xCount; x >= X; x--)
-                _tiles.Add(new Tile(x, Y + yCount + 1, 32, 32, Form, 0));
+            for (int y = Y + y1Count; y <= y1Count + y2Count + Y; y++)
+                _tiles.Add(new Tile(X + x1Count+x2Count, y, 32, 32, Form, 0));
 
-            for (int y = Y + yCount; y >= Y; y--)
-                _tiles.Add(new Tile(X, y, 32, 32, Form, 90));
+            for (int x = X + x1Count +x2Count; x >=x2Count + X; x--)
+                _tiles.Add(new Tile(x, Y + y1Count+ y2Count , 32, 32, Form, 0));
+
+            for (int y = Y + y1Count+y2Count; y >= y2Count + Y; y--)
+                _tiles.Add(new Tile(X+x2Count, y, 32, 32, Form, 0));
+
+            for (int x = X + x2Count; x >= X; x--)
+                _tiles.Add(new Tile(x, Y + y2Count, 32, 32, Form, 0));
+
+            for (int y = Y + y2Count; y >= Y; y--)
+                _tiles.Add(new Tile(X, y, 32, 32, Form, 0)); 
+
         }
     }
 }

@@ -63,6 +63,16 @@ namespace BobAdv.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backGame {
+            get {
+                object obj = ResourceManager.GetObject("backGame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap background {
             get {
                 object obj = ResourceManager.GetObject("background", resourceCulture);
@@ -126,6 +136,39 @@ namespace BobAdv.Properties {
         internal static System.Drawing.Bitmap image_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("image-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_finger_computer_icons_hand_clip_art_expektcom_5b1426896e3d58_4530104015280472414516 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-finger-computer-icons-hand-clip-art-expektcom-5b1426896e3d58.453010401528" +
+                        "0472414516", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_hand_rockpaperscissors_computer_icons_clip_a_botten_5b207ab17269f9_6204743215288552174687 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-hand-rockpaperscissors-computer-icons-clip-a-botten-5b207ab17269f9.620474" +
+                        "3215288552174687", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_punch_computer_icons_fist_gesture_hand_fist_5ac346f0dc7c23_1515728715227471209031 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-punch-computer-icons-fist-gesture-hand-fist-5ac346f0dc7c23.15157287152274" +
+                        "71209031", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
