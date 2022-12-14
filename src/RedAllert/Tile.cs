@@ -11,7 +11,7 @@ namespace BobAdv
     public class Tile : GameObject
     {
        
-        public Image Sprite = Image.FromFile("../../../resources/tile.png");    
+        public Image Sprite = Image.FromFile("resources/tile.png");    
 
         public Tile(int x, int y, int width, int height, Game form,float rotation) : base(x, y, width, height, form) 
         {

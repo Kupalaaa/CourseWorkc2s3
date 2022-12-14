@@ -15,7 +15,7 @@ namespace BobAdv
     public partial class Menu : Form
     {
         private Dictionary<string, int> _scores = new Dictionary<string, int>();
-        public SoundPlayer MainSound = new SoundPlayer("../../../resources/main.wav");
+        public SoundPlayer MainSound = new SoundPlayer("resources/main.wav");
         public Menu()
         {
             InitializeComponent();

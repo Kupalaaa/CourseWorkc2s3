@@ -59,11 +59,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::BobAdv.Properties.Resources.debufback1;
+            this.BackgroundImage = global::BobAdv.Properties.Resources.debufback2;
             this.ClientSize = new System.Drawing.Size(588, 359);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "DebufWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DebufWindow";

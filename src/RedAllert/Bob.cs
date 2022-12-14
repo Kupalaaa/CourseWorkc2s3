@@ -4,12 +4,12 @@ namespace BobAdv
 {
     public class Bob : ALifeUnit
     {
-        public Image Sprite = Image.FromFile("../../../resources/characters.png");
+        public Image Sprite = Image.FromFile("resources/characters.png");
         private World _world;
-        public SoundPlayer BufSound = new SoundPlayer("../../../resources/buf.wav");
-        public SoundPlayer DebufSound = new SoundPlayer("../../../resources/debuf.wav");
-        public SoundPlayer AttentionSound = new SoundPlayer("../../../resources/attention.wav");
-        public SoundPlayer DefeatSound = new SoundPlayer("../../../resources/defeat.wav");
+        public SoundPlayer BufSound = new SoundPlayer("resources/buf.wav");
+        public SoundPlayer DebufSound = new SoundPlayer("resources/debuf.wav");
+        public SoundPlayer AttentionSound = new SoundPlayer("resources/attention.wav");
+        public SoundPlayer DefeatSound = new SoundPlayer("resources/defeat.wav");
         public Bob(int x, int y, int width, int height, Game form, World world, int health, int attack,int score, string name = "Bob") :
             base(x, y, width, height, form, health, attack,score, name)
         {

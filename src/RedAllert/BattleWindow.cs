@@ -16,13 +16,13 @@ namespace BobAdv
     public partial class BattleWindow : Form
     {
 
-        private Image _ratSprite = Image.FromFile("../../../resources/rat.png");
-        private Image _playerSprite = Image.FromFile("../../../resources/knight.png");
-        public SoundPlayer GoodSound = new SoundPlayer("../../../resources/goodchoise.wav");
-        public SoundPlayer BadSound = new SoundPlayer("../../../resources/failchoise.wav");
-        public SoundPlayer DrawSound = new SoundPlayer("../../../resources/draw.wav");
-        public SoundPlayer WinSound = new SoundPlayer("../../../resources/win.wav");
-        public SoundPlayer DefeatSound = new SoundPlayer("../../../resources/defeat.wav");
+        private Image _ratSprite = Image.FromFile("resources/rat.png");
+        private Image _playerSprite = Image.FromFile("resources/knight.png");
+        public SoundPlayer GoodSound = new SoundPlayer("resources/goodchoise.wav");
+        public SoundPlayer BadSound = new SoundPlayer("resources/failchoise.wav");
+        public SoundPlayer DrawSound = new SoundPlayer("resources/draw.wav");
+        public SoundPlayer WinSound = new SoundPlayer("resources/win.wav");
+        public SoundPlayer DefeatSound = new SoundPlayer("resources/defeat.wav");
 
 
         private ALifeUnit _player;

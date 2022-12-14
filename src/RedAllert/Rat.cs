@@ -5,7 +5,7 @@ namespace BobAdv
 
     public class Rat : ALifeUnit
     {
-        public Image Sprite = Image.FromFile("../../../resources/dirt.png");
+        public Image Sprite = Image.FromFile("resources/dirt.png");
 
 
         public Rat(int x, int y, int width, int height, Game form, int health, int attack,int score, string name) : base(x, y, width,

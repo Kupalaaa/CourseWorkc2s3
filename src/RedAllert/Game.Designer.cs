@@ -40,7 +40,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::BobAdv.Properties.Resources.backGame;
+            this.pictureBox1.BackgroundImage = global::BobAdv.Properties.Resources.backGame1;
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
@@ -56,7 +56,7 @@
             this.label1.Font = new System.Drawing.Font("Haettenschweiler", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(1720, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 35);
+            this.label1.Size = new System.Drawing.Size(87, 34);
             this.label1.TabIndex = 1;
             this.label1.Text = "Score:";
             // 
@@ -84,7 +84,7 @@
             this.label2.Image = global::BobAdv.Properties.Resources.background;
             this.label2.Location = new System.Drawing.Point(1720, 322);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 46);
+            this.label2.Size = new System.Drawing.Size(116, 45);
             this.label2.TabIndex = 3;
             this.label2.Text = "label2";
             // 
@@ -97,7 +97,7 @@
             this.label3.Image = global::BobAdv.Properties.Resources.background;
             this.label3.Location = new System.Drawing.Point(1721, 257);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 46);
+            this.label3.Size = new System.Drawing.Size(116, 45);
             this.label3.TabIndex = 4;
             this.label3.Text = "label3";
             // 
@@ -118,7 +118,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoSize = true;
-            this.BackgroundImage = global::BobAdv.Properties.Resources.background;
+            this.BackgroundImage = global::BobAdv.Properties.Resources.background2;
             this.ClientSize = new System.Drawing.Size(1902, 996);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);

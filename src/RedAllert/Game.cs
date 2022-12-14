@@ -7,7 +7,7 @@ namespace BobAdv
     {
         private List<GameObject> _gameObjects  = new List<GameObject>();
         public Menu Menu;
-        public SoundPlayer StepSound = new SoundPlayer("../../../resources/step.wav");
+        public SoundPlayer StepSound = new SoundPlayer("resources/step.wav");
         private Bob _bob;
 
         public Game(Menu menu)

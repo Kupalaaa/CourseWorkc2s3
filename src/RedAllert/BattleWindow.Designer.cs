@@ -39,7 +39,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::BobAdv.Properties.Resources.BattleWindow;
+            this.pictureBox1.BackgroundImage = global::BobAdv.Properties.Resources.BattleWindow1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(39, 37);
             this.pictureBox1.Name = "pictureBox1";
@@ -51,7 +51,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.button1.BackgroundImage = global::BobAdv.Properties.Resources.kisspng_punch_computer_icons_fist_gesture_hand_fist_5ac346f0dc7c23_1515728715227471209031;
+            this.button1.BackgroundImage = global::BobAdv.Properties.Resources.kisspng_punch_computer_icons_fist_gesture_hand_fist_5ac346f0dc7c231;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Location = new System.Drawing.Point(274, 467);
             this.button1.Name = "button1";
@@ -63,7 +63,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button2.BackgroundImage = global::BobAdv.Properties.Resources.kisspng_hand_rockpaperscissors_computer_icons_clip_a_botten_5b207ab17269f9_6204743215288552174687;
+            this.button2.BackgroundImage = global::BobAdv.Properties.Resources.kisspng_hand_rockpaperscissors_computer_icons_clip_a_botten_5b207ab17269f91;
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button2.Location = new System.Drawing.Point(468, 467);
             this.button2.Name = "button2";
@@ -98,7 +98,7 @@
             // 
             // button3
             // 
-            this.button3.BackgroundImage = global::BobAdv.Properties.Resources.kisspng_finger_computer_icons_hand_clip_art_expektcom_5b1426896e3d58_4530104015280472414516;
+            this.button3.BackgroundImage = global::BobAdv.Properties.Resources.kisspng_finger_computer_icons_hand_clip_art_expektcom_5b1426896e3d581;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button3.Location = new System.Drawing.Point(665, 467);
             this.button3.Name = "button3";
@@ -111,7 +111,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::BobAdv.Properties.Resources.background;
+            this.BackgroundImage = global::BobAdv.Properties.Resources.background2;
             this.ClientSize = new System.Drawing.Size(1136, 577);
             this.ControlBox = false;
             this.Controls.Add(this.button3);

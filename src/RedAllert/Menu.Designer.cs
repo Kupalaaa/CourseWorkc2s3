@@ -66,8 +66,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::BobAdv.Properties.Resources.background1;
-            this.pictureBox1.Image = global::BobAdv.Properties.Resources.image_removebg_preview;
+            this.pictureBox1.BackgroundImage = global::BobAdv.Properties.Resources.background2;
+            this.pictureBox1.Image = global::BobAdv.Properties.Resources.image_removebg_preview1;
             this.pictureBox1.Location = new System.Drawing.Point(104, -40);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(607, 324);
@@ -127,7 +127,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackgroundImage = global::BobAdv.Properties.Resources.backMenu;
+            this.BackgroundImage = global::BobAdv.Properties.Resources.backMenu1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.checkBox1);
